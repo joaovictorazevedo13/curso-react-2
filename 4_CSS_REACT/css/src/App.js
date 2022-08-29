@@ -9,11 +9,6 @@ function App() {
   const n = 15;
   const [nome] = useState("João");
 
-  const carros = [
-    {id: 1, modelo: "Onix", fabricante: "Chevrolet", cor: 'Preto'},
-    {id: 2, modelo: "Polo", fabricante: "Volkswagen", cor: 'Branco'},
-    {id: 3, modelo: "HB20", fabricante: "Hyundai", cor: 'Vermelho'},    
-]
 
   return (
     <div className="App">
