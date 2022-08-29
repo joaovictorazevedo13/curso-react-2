@@ -2,7 +2,7 @@ import './App.css';
 import MyComponent from './Components/MyComponent';
 import Title from './Components/Title';
 import {useState} from 'react';
-import ChallengeCSS from './Components/ChallengeCSS';
+
 
 function App() {
 
@@ -25,9 +25,7 @@ function App() {
         <h2 style={n > 10 ? ({background: "green"}) : ({background: "red"})}>CSS dinâmico</h2>
         <h2 style={nome === "João" ? ({background: "aqua"}) : ({background: "purple"})}>CSS dinâmico</h2>
       </div>
-      {carros.map((car) => (
-        <ChallengeCSS key={car.id} modelo={car.modelo} fabricante={car.fabricante} cor={car.cor}/>
-      ))};
+      
 
     </div>
   );
